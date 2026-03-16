@@ -541,11 +541,17 @@ transform:scale(1.05);
 }
 
 #countdownTimer{
-font-size:30px;
+font-size:32px;
 font-weight:600;
-margin-top:15px;
 color:#d81b60;
+margin-top:20px;
+background:#ffe4ec;
+padding:15px 25px;
+border-radius:12px;
+display:inline-block;
+box-shadow:0 6px 20px rgba(0,0,0,0.15);
 }
+
 #confettiCanvas{
 position:fixed;
 top:0;
