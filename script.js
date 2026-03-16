@@ -207,10 +207,8 @@ function nextStep() {
             document.getElementById('envelope').classList.add('open');
         }
 if(currentStep === 7){
-
+document.getElementById('celbName').textContent = userName;
 document.getElementById("birthdayMusic").play();
-
-document.getElementById("finalName").innerText = userName;
 
 typeMessage();
 
@@ -537,7 +535,7 @@ document.getElementById("typingMessage").innerHTML += birthdayMessage.charAt(msg
 
 msgIndex++;
 
-setTimeout(typeMessage,40);
+setTimeout(typeMessage,100);
 
 }
 
