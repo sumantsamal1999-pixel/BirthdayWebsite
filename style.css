@@ -546,7 +546,6 @@ font-weight:600;
 margin-top:15px;
 color:#d81b60;
 }
-
 #confettiCanvas{
 position:fixed;
 top:0;
@@ -556,4 +555,3 @@ height:100%;
 pointer-events:none;
 z-index:2;
 }
-
